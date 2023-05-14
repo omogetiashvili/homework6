@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans";
+}
+
+body{
+  background-color: #F2F2F2;
+  background-image: url(./assets/Oval\ Copy\ 30.png);
+  background-repeat: no-repeat;
+  background-color: rgb(69, 135, 211);
+
+
+}
+.container {
+  display: flex;
+ 
+}
+
+h1{
+  font-weight: 700;
+  font-size: 18px;
+  color: #2E3349;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.7;
+  margin-left: 9px;
+}
+
+h3{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h4{
+  font-weight: 400;
+  font-size: 10px;
+  color: #6B7082;
+  margin-top: 3px;
+}
+
+.box{
+  width: 350px;
+  border-radius: 15px;
+  height: 374px;
+  background-image: url(./assets/Oval\ \(8\).svg);
+  background-repeat: no-repeat;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 50%);
+  background-color: white;
+  box-shadow: 0px 50px 100px -20px #08465E81;
+}
+
+.avatar {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -5%);
+}
+
+.box6 {
+  height: 700px;
+  width: 800px;
+  position: relative;
+  left: 100%;
+  transform: translate(-100%);
+  margin-top: 53px;
+  background-image: url(./assets/Oval\ Copy\ 32.png);
+  background-repeat: no-repeat;
+  background-position: 90% 1%;
+}
+
+.header{
+  margin-top: 212px;
+  margin-left: 108px;
+  display: flex;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 13px;
+  opacity: 0.8;
+}
+
+.line {
+  width: 350px;
+  height: 1;
+  margin-top: 28px;
+  border: 1px solid black;
+  opacity: 0.1;
+}
+
+.stats{
+  margin-top: 24px;
+  display: grid;
+  display: flex;
+  gap: 58px;
+  text-align: center;
+}
+
+.followers {
+  margin-left: 58px;
+}
+ 
